@@ -143,6 +143,7 @@
   }
   #home_top,
   #home_bottom,
+  #konsult,
   #noskatieties_vedio{
     .mp{
       .aside_right {
@@ -171,6 +172,7 @@
 @media (min-width: 576px) and (max-width: 767.98px){
   #home_top,
   #home_bottom,
+  #konsult,
   #noskatieties_vedio{
     .mp{
       .aside_right {
@@ -337,6 +339,20 @@
       min-width: 98% !important;
       margin: 0 auto;
       padding: 0 0.8rem !important;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .no-gutters{
+    .middle__content__detail {
+      height: 100%;
+      h2 {
+        font-family: "fs_albertbold", sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 500;
+      }
     }
   }
 }
