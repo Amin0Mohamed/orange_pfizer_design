@@ -1,0 +1,342 @@
+@media (max-width: 575.98px){
+  #header {
+    .menu__wrapper {
+      width: 240px;
+      .menu {
+        width: 240px !important;
+        .menu__links{
+          .menu__links__item {
+            height: 39px;
+            padding: 0 16px;
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .menu__links__item.active{
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  #slider{
+    .owl-carousel{
+      .item {
+        height: auto;
+        .slide_img {
+          width: 100%;
+          float: right;
+        }
+        .slide_caption ,
+        .slide_caption2{
+          width: 100%;
+          float: left;
+          padding: 20px;
+          text-align: left;
+          margin-top: 13px;
+          background-color: #f1f1f1;
+        }
+      }
+    }
+  }
+  #ref {
+    h4 {
+      line-height: 17px;
+    }
+  }
+  #content{
+    margin: 0rem 0;
+    .container{
+      max-width: 80%;
+      .no-gutters{
+        .home_content{
+          .content_detail {
+            width: 65%;
+          }
+        }
+      }
+    }
+    .home_aside{
+      .item_wrapper{
+        .question{
+          h3{
+            width: 143px;
+            left: -17px;
+          }
+        }
+        .aside_item{
+          .item_bottom{
+            a {
+              right: -3px;
+              font-size: 13px;
+              height: 100%;
+              width: 73%;
+            }
+            &:after{
+              left: 4%;
+            }
+          }
+          .item_top{
+            p.second {
+              display: none;
+            }
+            h3 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container {
+    max-width: 88%;
+  }
+
+  footer{
+    .scroll_up{
+      position: absolute;
+      top: -33px;
+      right: 0px;
+      padding: 5px;
+      background: #0082ca;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .footer_company {
+      margin-bottom: 13px;
+      .company_address {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-left: 32px;
+        p {font-size: 10px;}
+      }
+    }
+    .footer_link{
+      .footer_links{
+        li{
+          a{
+            padding: 0px 5px 3px 5px;
+            font-size: 11px;
+            &:after {
+              height: 2px;
+            }
+          }
+        }
+      }
+    }
+    .scroll_up{
+      position: absolute;
+      top: -29px;
+      right: 0px;
+      padding: 3px;
+      img {
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      &:before {
+        width: 26%;
+      }
+    }
+  }
+  #home_top,
+  #home_bottom,
+  #noskatieties_vedio{
+    .mp{
+      .aside_right {
+        padding: 0px;
+        margin-left: 0px;
+        .nervepain__video{
+          margin-top: 3rem;
+        }
+        h2 {
+          font-size: 28px;
+        }
+      }
+      .aside_left {
+        padding: 24px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .kasirsapes__banner__image {
+    width: 100%;
+    height: 155px;
+  }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  #home_top,
+  #home_bottom,
+  #noskatieties_vedio{
+    .mp{
+      .aside_right {
+        padding: 0px;
+        margin-left: 0px;
+        h2 {
+          font-size: 28px;
+        }
+        .nervepain__video{
+          margin-top: 3rem;
+        }
+      }
+      .aside_left {
+        padding: 24px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .kasirsapes__banner__image {
+    width: 100%;
+    height: 155px;
+  }
+  #home_top ,
+  #noskatieties_vedio {
+    .mp{
+      .aside_left {
+        margin: auto;
+        width: 71%;
+        height: 250px;
+        position: relative;
+      }
+    }
+
+  }
+
+  .container {
+    max-width: 90%;
+  }
+  #content {
+    margin: 0rem 0;
+    .home_aside{
+      .item_wrapper{
+        .aside_item{
+          .item_bottom{
+            &:after{
+              left: 4%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #slider{
+    .owl-carousel{
+      .item {
+        height: auto;
+        .slide_img {
+          width: 100%;
+          float: right;
+        }
+        .slide_caption,
+        .slide_caption2 {
+          width: 100%;
+          float: left;
+          padding: 20px;
+          text-align: left;
+          margin-top: 13px;
+          background-color: #f1f1f1;
+        }
+      }
+    }
+  }
+  #ref {
+    h4 {
+      line-height: 17px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #home_top ,
+  #home_bottom,
+  #noskatieties_vedio{
+    .mp {
+      .aside_right {
+        h2 {
+          line-height: 2.5rem;
+        }
+      }
+    }
+  }
+  #home_top{
+    .mp{
+      .aside_right{
+        .nervepain__symptoms{
+          ul{
+            li{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .aside_left{
+        .aside_left_content{
+          .aside_caption{
+            h3 {
+              font-size: 14px;
+            }
+            p {
+              padding: 0rem 0.5rem;
+            }
+          }
+        }
+        .aside_link{
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    max-width: 90%;
+  }
+  #content {
+    margin: 0rem 0;
+    .home_aside{
+      .item_wrapper{
+        .aside_item{
+          .item_bottom{
+            &:after{
+              left: 4%;
+            }
+            &:before{
+              width: 18%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #slider{
+    .container {
+      max-width: 744px;
+      margin: 0 auto;
+      padding: 0 !important;
+    }
+  }
+  footer{
+    .footer_link {
+      justify-content: center;
+      margin-top: 4px;
+      .footer_links {
+        width: 50%
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header{
+    .container {
+      min-width: 98% !important;
+      margin: 0 auto;
+      padding: 0 0.8rem !important;
+    }
+  }
+}
