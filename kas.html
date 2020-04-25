@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-2">
-                <a href="index.html" role="home" id="logo" title="Home" class="logo_link">
+                <a href="index.html" id="logo" title="Home" class="logo_link">
                     <img src="assets/images/logo-1.png" alt="Manassapes.lv">
                 </a>
             </div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
 
-                    <nav class="menu hidden" id="navigation" role="navigation">
+                    <nav class="menu hidden" id="navigation">
                         <ul class="menu__links">
                             <li class="menu__links__item">
                                 <a href="index.html" target="_blank"  title="Sākums" class="menu__links__item__link">
@@ -75,10 +75,8 @@
 <main class="content">
    <!-- start page name   -->
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <div class="container">
-                <li class="breadcrumb-item active" aria-current="page">Kas ir sāpes?</li>
-            </div>
+        <ol class="breadcrumb container">
+            <li class="breadcrumb-item active" aria-current="page">Kas ir sāpes?</li>
         </ol>
     </nav>
     <!-- end page name   -->
@@ -222,7 +220,7 @@
             veselības aprūpes speciālistu.</h4>
         <hr />
         <button class="open_ref">
-            <img class="icon" src="assets/images/icons/arrow-small.svg" id="arrowIcon" onclick="openRef()">
+            <img class="icon" src="assets/images/icons/arrow-small.svg" alt="error" id="arrowIcon" onclick="openRef()">
             <span class="title">Atsauces</span>
         </button>
         <div class="ref_content" id="ref_content">
@@ -244,7 +242,7 @@
 <footer id="footer">
     <div class="container">
         <div class="scroll_up" id="toTop">
-            <img class="icon" src="assets/images/icons/arrow-small.svg">
+            <img class="icon" src="assets/images/icons/arrow-small.svg" alt="icon_error">
             <span class="title">Uz augšu</span>
         </div>
         <div class="row">
