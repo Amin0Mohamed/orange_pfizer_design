@@ -11,6 +11,7 @@
 
     <!-- Import CSS files from assets -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/switcher.css">
     <link rel="stylesheet" href="assets/css/material-components-web.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -101,7 +102,7 @@
                                     pilnvērtīgai sarunai ar ārstu.
                                 </p>
                             </div>
-                            <div class="aside_link">
+                            <div class="aside_link bg-swr-el bg-swr-el-com-after">
                                 <a href="#">Pildīt testu &nbsp; &gt;&gt;</a>
                             </div>
                         </div>
@@ -137,9 +138,9 @@
 <!-- End Ref -->
 
 <!-- Footer Section -->
-<footer id="footer">
+<footer id="footer" class="bg-swr-el">
     <div class="container">
-        <div class="scroll_up" id="toTop">
+        <div class="scroll_up bg-swr-el bg-swr-el-com-before" id="toTop">
             <img class="icon" src="assets/images/icons/arrow-small.svg" alt="error">
             <span class="title">Uz augšu</span>
         </div>
@@ -179,10 +180,60 @@
     </div>
 </footer>
 <!-- End Footer Section -->
-
+<div id="layout-swr" class="layout-options">
+    <div class="box-layout">
+        <h3>Style Switcher</h3>
+        <!-- Background -->
+        <div class="block-switcher Background-color-swr">
+            <h4>Background color:</h4>
+            <button class="pfblue" value="pfblue_theme" data-value="0093d0"></button>
+            <button class="black" value="black_theme" data-value="000000"></button>
+            <button class="gray" value="gray_theme" data-value="616365"></button>
+            <button class="cyan" value="cyan_theme" data-value="00aeef"></button>
+            <button class="red" value="red_theme" data-value="cc292b"></button>
+            <button class="magenta" value="magenta_theme" data-value="d6006e"></button>
+            <button class="green" value="green_theme" data-value="00a950"></button>
+            <button class="orange" value="orange_theme" data-value="f8971d"></button>
+            <button class="lightblue" value="lightblue_theme" data-value="75d1e0"></button>
+            <button class="lightgreen" value="lightgreen_theme" data-value="7dba00"></button>
+            <button class="yellow" value="yellow_theme" data-value="f7d417"></button>
+            <button class="lightred" value="lightred_theme" data-value="f26649"></button>
+            <button class="blue" value="blue_theme" data-value="002596"></button>
+            <button class="purple" value="purple_theme" data-value="4a245e"></button>
+        </div>
+        <!-- Components -->
+        <div class="block-switcher components-color-swr">
+            <h4>Primary color:</h4>
+            <button class="pfblue" value="pfblue_theme" data-value="0093d0"></button>
+            <button class="black" value="black_theme" data-value="000000"></button>
+            <button class="gray" value="gray_theme" data-value="616365"></button>
+            <button class="cyan" value="cyan_theme" data-value="00aeef"></button>
+            <button class="red" value="red_theme" data-value="cc292b"></button>
+            <button class="magenta" value="magenta_theme" data-value="d6006e"></button>
+            <button class="green" value="green_theme" data-value="00a950"></button>
+            <button class="orange" value="orange_theme" data-value="f8971d"></button>
+            <button class="lightblue" value="lightblue_theme" data-value="75d1e0"></button>
+            <button class="lightgreen" value="lightgreen_theme" data-value="7dba00"></button>
+            <button class="yellow" value="yellow_theme" data-value="f7d417"></button>
+            <button class="lightred" value="lightred_theme" data-value="f26649"></button>
+            <button class="blue" value="blue_theme" data-value="002596"></button>
+            <button class="purple" value="purple_theme" data-value="4a245e"></button>
+        </div>
+        <!-- Fonts Family -->
+        <div class="block-switcher fonts-family-swr">
+            <h4>Font type:</h4>
+            <button class="helveticaNeue active" value="helveticaNeue_theme" data-font="helveticaNeue">Helvetica Neue</button>
+            <button class="fsalbert" value="fsalbert_theme" data-font="fsalbert">FSAlbert</button>
+        </div>
+    </div>
+    <div class="icon-cog">
+        <span class="material-icons">settings</span>
+    </div>
+</div>
 <!-- Import JS files from assets -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/switcher.js"></script>
 <script src="assets/js/material-components-web.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
