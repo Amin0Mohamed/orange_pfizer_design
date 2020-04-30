@@ -1,33 +1,39 @@
 #content{
-  margin: 3rem 0;
+  margin: 7rem 0;
   .container{
-    max-width: 100%;
-    width: 80%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    //max-width: 100%;
+    //width: 80%;
+    //padding-right: 0px;
+    //padding-left: 0px;
+    //margin-right: auto;
+    //margin-left: auto;
+    //display: flex;
+    //justify-content: center;
     .no-gutters{
       margin-right: 0;
       margin-left: 0;
       .home_content{
-        width: 100%;
-        min-height: 500px;
         position: relative;
         padding: 0;
         margin: 0;
+        background: yellow;
+        z-index: 1;
         img {
           width: 100%;
-          height: 100%;
           position: absolute;
+          transform: scale(1.2);
           top: 0px;
+          left: 35px;
           bottom: 0px;
+          z-index: 2;
+          background: aqua;
         }
         .content_detail{
           position: absolute;
-          bottom: 0px;
-          left: 0;
-          width: 46%;
+          bottom: -492px;
+          left: 0px;
+          z-index: 3;
+          width: 52%;
           &:after {
             content: '';
             width: 16px;
@@ -54,7 +60,7 @@
           .link{
             display: inline-block;
             width: 100%;
-            height: 32px;
+            height: 50px;
             line-height: 58px;
             background-color: #f1f1f1;
             position: relative;
@@ -86,9 +92,9 @@
               height: 100%;
               position: absolute;
               top: 0;
-              right: 0;
+              right: 12px;
               padding-left: -5px;
-              font-size: 15px;
+              font-size: 18px;
               font-weight: 400;
               color: #424242;
               text-decoration: none;
@@ -113,30 +119,28 @@
       }
     }
     .home_aside {
-      width: 100%;
-      height: 100%;
-      margin-top: 12%;
       .item_wrapper {
-        width: 100%;
-        height: 34%;
+        width: 111%;
         position: relative;
+        left: 32%;
+        height: 260px;
         img {
           position: absolute;
           top: 0;
-          left: 0;
+          left: -20px;
           width: 100%;
           height: 100%;
         }
         .question {
           position: absolute;
-          bottom: 2rem;
-          left: 1.5rem;
+          bottom: 1rem;
+          left: 1.9rem;
           width: 39%;
           height: 23%;
           h3 {
             color: #ffffff;
             font-family: "fs_albertbold", sans-serif;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 2px;
             line-height: 27px;
             position: relative;
@@ -144,13 +148,14 @@
             &:after {
               content: "";
               display: inline-block;
-              width: 38px;
-              height: 29px;
+              width: 41px;
+              height: 32px;
               background: url(../images/icons/slide3-icon.png) no-repeat;
               background-size: contain;
               position: absolute;
-              top: 24px;
-              right: 5px;
+              top: 21px;
+              right: -21px;
+              z-index: 0;
             }
           }
         }
@@ -159,7 +164,7 @@
           width: 55%;
           margin-left: auto;
           background-color: #f1f1f1;
-          padding: 1rem 1rem 3rem;
+          padding: 1rem 0.5rem 3rem 1rem;
           position: relative;
           &:after {
             content: '';
@@ -173,43 +178,47 @@
             transform: rotate(45deg);
           }
           .item_top {
-            height: 220px;
+            height: 100%;
             h3 {
-              font-size: 14px;
+              font-size: 20px;
               font-family: "fs_albertbold", sans-serif;
               color: #424242;
               font-weight: 700;
+              line-height: 24px;
             }
             p {
-              font-size: 11px;
+              font-size: 13px;
               margin-bottom: 10px;
-              line-height: 13px;
+              line-height: 17px;
+              font-weight: 400;
             }
           }
           .item_bottom {
             width: 100%;
             height: 16%;
+            bottom: 0px;
             line-height: 37px;
             position: absolute;
-            bottom: 0;
             background-color: #0082ca;
             left: 0;
             a {
               color: #ffffff;
               cursor: pointer;
               text-decoration: none;
-              font-family: 'fs_albertbold', sans-serif;
+              font-family: "fs_albertbold", sans-serif;
               position: absolute;
               top: 0;
-              right: 20px;
+              right: 34px;
               height: 100%;
               width: 62%;
+              font-weight: 600;
+              font-size: 17px;
               display: inline-block;
               z-index: 1;
             }
             &:before{
               content: '';
-              width: 23%;
+              width: 20%;
               height: 100%;
               background-color: #de2c2b;
               position: absolute;

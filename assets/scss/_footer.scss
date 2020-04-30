@@ -16,12 +16,13 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: -81px;
     .company_address{
       position: relative;
-      right: 53px;
+      right: 122px;
       p {
         color: #f1f1f1;
-        font-size: 12px;
+        font-size: 14px;
         margin: 0;
         padding: 0;
         font-weight: 400;
@@ -94,7 +95,7 @@ footer {
   .scroll_up{
     position: absolute;
     top: -33px;
-    right: 87px;
+    right: 13%;
     padding: 5px;
     background: #0082ca;
     z-index: 1;

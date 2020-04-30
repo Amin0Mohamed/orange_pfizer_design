@@ -1,10 +1,10 @@
 //***********owl carousel**********
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:5,
     nav:false,
     dots:false,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:5000,
     responsive:{
         0:{

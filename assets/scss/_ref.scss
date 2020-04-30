@@ -1,37 +1,36 @@
 #ref{
   .container {
-    max-width: 100%;
-    width: 80%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    //max-width: 100%;
+    //width: 80%;
+    //padding-right: 0px;
+    //padding-left: 0px;
+    //margin-right: auto;
+    //margin-left: auto;
 
     h4 {
       color: #212529;
-      font-size: 14px;
+      font-size: 17px;
       line-height: 4px;
-      margin-bottom: 11px;
+      font-weight: 500;
+      margin-bottom: 15px;
     }
-
     hr {
-      width: 83%;
+      width: 100%;
       background: #a7a2a2;
-      margin: 3px 0px;
+      margin: 4px 0px;
     }
 
     .open_ref {
       border: none;
       background-color: #0082ca;
-      width: 89px;
-      height: 30px;
+      width: 100px;
+      height: 36px;
       display: flex;
       justify-content: center;
       align-items: center;
       cursor: pointer;
       position: relative;
       z-index: 1;
-
       .title {
         width: 70%;
         height: 100%;
@@ -42,10 +41,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 11px;
+        font-size: 15px;
+        font-weight: 500;
         color: #ffffff;
       }
-
       .icon {
         display: inline-block;
         width: 8px;
