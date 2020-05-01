@@ -1,14 +1,6 @@
 #content{
   margin: 7rem 0;
   .container{
-    //max-width: 100%;
-    //width: 80%;
-    //padding-right: 0px;
-    //padding-left: 0px;
-    //margin-right: auto;
-    //margin-left: auto;
-    //display: flex;
-    //justify-content: center;
     .no-gutters{
       margin-right: 0;
       margin-left: 0;
@@ -16,7 +8,6 @@
         position: relative;
         padding: 0;
         margin: 0;
-        background: yellow;
         z-index: 1;
         img {
           width: 100%;
@@ -69,7 +60,6 @@
               content: '';
               width: 20%;
               height: 100%;
-              background-color: #de2c2b;
               position: absolute;
               top: 0;
               left: 0;
@@ -80,6 +70,7 @@
               -moz-user-select: none;
               -ms-user-select: none;
               user-select: none;
+              background-color: red;
             }
             &:hover {
               a{color: #fff;}

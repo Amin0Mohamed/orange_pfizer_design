@@ -1,4 +1,11 @@
-
+// start   general
+.breadcrumb-item.active {
+  font-family: 'fs_albertbold', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: #424242;
+}
+//  end  general
 @import "content";
 @import "footer";
 @import "header";
@@ -10,5 +17,4 @@
 @import "privacy";
 @import "ref";
 @import "slider";
-@import "vedio";
 @import "responsive";

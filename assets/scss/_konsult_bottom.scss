@@ -135,14 +135,16 @@
       height: auto;
     }
     .middle__content__detail {
-      width: 100%;
+      width: 79%;
       background: #0082ca;
       padding: 10px;
+      margin: auto;
       h2 {
         font-family: "fs_albertbold", sans-serif;
         color: #ffffff;
-        font-size: 32px;
-        font-weight: 500;
+        font-size: 37px;
+        font-weight: 600;
+        line-height: 1.4;
     }
   }
 }
