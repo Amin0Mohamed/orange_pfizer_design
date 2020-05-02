@@ -479,23 +479,25 @@
   #slider{
     margin: 2rem 0px;
     .container {
-      width: 100%;
+      max-width: 715px;
       margin-right: auto;
       margin-left: auto;
       .owl-carousel{
         .owl-stage{
           width: 100%;
-          .owl-item{
+          .owl-item.active{
+            width: 657px;
+            margin-right: 0px;
             img {
-              width: 112%;
+              width: 100%;
             }
           }
         }
         .item{
           position: relative;
           width: 100%;
-          height: 500px;
-          max-height: 500px;
+          height: 583px;
+          max-height: 585px;
           .slide_img{
             position: absolute;
             top: 0px;
@@ -509,7 +511,7 @@
           .slide_caption,
           .slide_caption2{
             position: absolute;
-            top: 40%;
+            top: 46%;
             left: 0px;
             width: 100%;
             height: 60%;
@@ -518,7 +520,7 @@
             background: #eee;
             .slide_icon{
               margin-bottom: 0.8rem;
-              width: 26%;
+              width: 18%;
             }
             h2
             {
@@ -579,7 +581,11 @@
       }
     }
   }
-
+  #header{
+    .container{
+      max-width: 725px;
+    }
+  }
   #content{
     margin: 0rem 0;
     .container{
@@ -747,12 +753,12 @@
       align-items: center;
       margin-left: -81px;
       a{
-        margin-left: 59px;
+        margin-left: 8px;
       }
       .company_address {
         position: relative;
         right: 0px;
-        left: 95px;
+        left: 0px;
         margin-left: 32px;
         padding: 4px;
         p {font-size: 14px;}
@@ -803,12 +809,12 @@
       align-items: center;
       margin-left: -81px;
       a{
-        margin-left: 18px;
+        margin-left: 8px;
       }
       .company_address {
         position: relative;
         right: 0px;
-        left: 95px;
+        left: 0px;
         margin-left: 32px;
         padding: 4px;
         p {font-size: 14px;}
@@ -842,7 +848,6 @@
       }
     }
   }
-
   #home_top,
   #home_bottom,
   #konsult,
@@ -881,7 +886,6 @@
     }
 
   }
-
   #kas_top {
     margin: 2rem 0rem;
     .container {
@@ -958,6 +962,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #header{
+    .container{
+      max-width: 930px;
+    }
+  }
   #slider{
     margin: 2rem 0px;
     .container{
@@ -974,18 +983,13 @@
           }
         }
         .item{
-          position: relative;
-          width: 100%;
-          height: 262px;
-          max-height: 300px;
           .slide_img{
             position: absolute;
             top: 0px;
             right: -20px;
-            width: 71%;
-            height: 100%;
             z-index: 2;
             img{
+              width: 112%;
             }
           }
           .slide_caption,
@@ -1265,7 +1269,7 @@
       .company_address {
         position: relative;
         right: 0px;
-        left: 95px;
+        left: 0px;
         margin-left: 32px;
         padding: 4px;
         p {font-size: 14px;}
@@ -1312,7 +1316,7 @@
       .company_address {
         position: relative;
         right: 0px;
-        left: 95px;
+        left: 0px;
         margin-left: 32px;
         padding: 4px;
         p {font-size: 14px;}
