@@ -121,7 +121,6 @@
       }
     }
   }
-
   #content{
     margin: 0rem 0;
     .container{
@@ -1519,17 +1518,6 @@
 }
 
 @media (min-width: 1200px) {
-  //.no-gutters{
-  //  .middle__content__detail {
-  //    height: 100%;
-  //    h2 {
-  //      font-family: "fs_albertbold", sans-serif;
-  //      color: #ffffff;
-  //      font-size: 36px;
-  //      font-weight: 500;
-  //    }
-  //  }
-  //}
   #content{
     .home_aside{
       .item_wrapper{
@@ -1552,6 +1540,478 @@
             }
           }
           .item_top{
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 680px){
+  footer.footer {
+    .footer_company {
+      a{
+        margin-left: 58px;
+      }
+    }
+  }
+  footer{
+    .footer_company {
+      a{
+        margin-left: 58px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px){
+  footer.footer {
+    .scroll_up {
+      right: 67px;
+    }
+    .footer_company {
+      a{
+        margin-left: 58px;
+      }
+    }
+  }
+  footer{
+    .scroll_up {
+      right: 67px;
+    }
+    .footer_company {
+      a{
+        margin-left: 58px;
+      }
+    }
+  }
+}
+
+//BlackBarry
+@media (max-width: 360px){
+  #ref {
+    .container{
+      max-width: 100%;
+      width: 91%;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      h4 {
+        line-height: 21px;
+        color: #424242;
+        font-size: 14px;
+      }
+    }
+  }
+  #ref.ref {
+    position: relative;
+    top: 347px;
+    .container{
+      max-width: 100%;
+      width: 91%;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      h4 {
+        line-height: 21px;
+        color: #424242;
+        font-size: 14px;
+      }
+    }
+  }
+  footer{
+    .scroll_up{
+      position: absolute;
+      top: -33px;
+      right: 0px;
+      padding: 5px;
+      background: #0082ca;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .footer_company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -81px;
+      a{
+        margin-left: 74px;
+      }
+      .company_address {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-left: 32px;
+        padding: 4px;
+        p {font-size: 14px;}
+      }
+    }
+    .footer_link{
+      .footer_links{
+        li{
+          a{
+            padding: 0px 5px 3px 5px;
+            font-size: 11px;
+            &:after {
+              height: 2px;
+            }
+          }
+        }
+      }
+    }
+    .scroll_up{
+      position: absolute;
+      top: -30px;
+      right: 0px;
+      padding: 3px;
+      img {
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      &:before {
+        width: 26%;
+      }
+    }
+  }
+  footer.footer{
+    margin-top: 107%;
+    .scroll_up{
+      position: absolute;
+      top: -33px;
+      right: 0px;
+      padding: 5px;
+      background: #0082ca;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .footer_company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -81px;
+      a{
+        margin-left: 74px;
+      }
+      .company_address {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-left: 32px;
+        padding: 4px;
+        p {font-size: 14px;}
+      }
+    }
+    .footer_link{
+      .footer_links{
+        li{
+          a{
+            padding: 0px 5px 3px 5px;
+            font-size: 11px;
+            &:after {
+              height: 2px;
+            }
+          }
+        }
+      }
+    }
+    .scroll_up{
+      position: absolute;
+      top: -30px;
+      right: 0px;
+      padding: 3px;
+      img {
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      &:before {
+        width: 26%;
+      }
+    }
+  }
+  #kas_top{
+    .container{
+      .mp {
+        .aside_left {
+          margin-top: 9px;
+          width: 100%;
+          position: relative;
+          left: 0px;
+          height: 391px;
+          .aside_left_content{
+            top: 230px;
+            width: 100%;
+            height: 45%;
+            right: 0px;
+            .aside_link{
+              a {
+                right: 75px;
+                font-size: 21px;
+              }
+            }
+          }
+          &:after{
+            top: 221px;
+            left: 8%;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+//Iphone X
+@media (max-width: 375px){
+  #ref {
+    .container{
+      max-width: 100%;
+      width: 91%;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      h4 {
+        line-height: 21px;
+        color: #424242;
+        font-size: 14px;
+      }
+    }
+  }
+  #ref.ref {
+    position: relative;
+    top: 240px;
+    .container{
+      max-width: 100%;
+      width: 91%;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      h4 {
+        line-height: 21px;
+        color: #424242;
+        font-size: 14px;
+      }
+    }
+  }
+  footer{
+    .scroll_up{
+      position: absolute;
+      top: -33px;
+      right: 7px;
+      padding: 5px;
+      background: #0082ca;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .footer_company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -81px;
+      a{
+        margin-left: 74px;
+      }
+      .company_address {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-left: 32px;
+        padding: 4px;
+        p {font-size: 14px;}
+      }
+    }
+    .footer_link{
+      .footer_links{
+        li{
+          a{
+            padding: 0px 5px 3px 5px;
+            font-size: 11px;
+            &:after {
+              height: 2px;
+            }
+          }
+        }
+      }
+    }
+    .scroll_up{
+      position: absolute;
+      top: -30px;
+      right: 0px;
+      padding: 3px;
+      img {
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      &:before {
+        width: 26%;
+      }
+    }
+  }
+  footer.footer{
+    margin-top: 73%;
+    .scroll_up{
+      position: absolute;
+      top: -33px;
+      right: 7px;
+      padding: 5px;
+      background: #0082ca;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .footer_company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -81px;
+      a{
+        margin-left: 74px;
+      }
+      .company_address {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin-left: 32px;
+        padding: 4px;
+        p {font-size: 14px;}
+      }
+    }
+    .footer_link{
+      .footer_links{
+        li{
+          a{
+            padding: 0px 5px 3px 5px;
+            font-size: 11px;
+            &:after {
+              height: 2px;
+            }
+          }
+        }
+      }
+    }
+    .scroll_up{
+      position: absolute;
+      top: -30px;
+      right: 0px;
+      padding: 3px;
+      img {
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      &:before {
+        width: 26%;
+      }
+    }
+  }
+  #kas_top{
+    .container{
+      .mp {
+        .aside_left {
+          margin-top: 9px;
+          width: 100%;
+          position: relative;
+          left: 0px;
+          height: 391px;
+          .aside_left_content{
+            top: 230px;
+            width: 100%;
+            height: 45%;
+            right: 0px;
+            .aside_link{
+              a {
+                right: 75px;
+                font-size: 21px;
+              }
+            }
+          }
+          &:after{
+            top: 221px;
+            left: 8%;
+          }
+        }
+      }
+    }
+
+  }
+  #content {
+    .container {
+      .no-gutters{
+        .home_aside {
+          .item_wrapper {
+            .aside_item{
+              top: 73%;
+            }
+            img{
+              height: auto;
+            }
+          }
+          .item_two {
+            top: 139px;
+          }
+        }
+        .home_content{
+          .content_detail{
+            .link{
+              &:before{
+                width: 15%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//Iphone X
+@media (max-width: 768px){
+  #content {
+    .container {
+      .no-gutters{
+        .home_aside {
+          .item_wrapper {
+            .question{
+              width: 95%;
+              top: 116px;
+              left: 0px;
+            }
+            .aside_item{
+              top: 71%;
+              height: 78%;
+              .item_top{
+                p{
+                  font-size: 17px;
+                  line-height: 23px;
+                }
+              }
+              .item_bottom{
+                &:before{
+                  width: 15%;
+                }
+                &:after {
+                  left: 2%;
+                  top: 64%;
+                }
+              }
+            }
+            img{
+              height: auto;
+            }
+          }
+          .item_two {
+          }
+        }
+        .home_content{
+          .content_detail{
+            width: 53%;
+            .link{
+              &:before{
+                width: 15%;
+              }
+            }
           }
         }
       }

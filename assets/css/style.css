@@ -2934,5 +2934,385 @@ main.main_privacy .container .items ul li {
     left: 4%;
   }
 }
+@media (min-width: 576px) and (max-width: 680px) {
+  footer.footer .footer_company a {
+    margin-left: 58px;
+  }
+
+  footer .footer_company a {
+    margin-left: 58px;
+  }
+}
+@media (min-width: 768px) and (max-width: 850px) {
+  footer.footer .scroll_up {
+    right: 67px;
+  }
+  footer.footer .footer_company a {
+    margin-left: 58px;
+  }
+
+  footer .scroll_up {
+    right: 67px;
+  }
+  footer .footer_company a {
+    margin-left: 58px;
+  }
+}
+@media (max-width: 360px) {
+  #ref .container {
+    max-width: 100%;
+    width: 91%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #ref .container h4 {
+    line-height: 21px;
+    color: #424242;
+    font-size: 14px;
+  }
+
+  #ref.ref {
+    position: relative;
+    top: 347px;
+  }
+  #ref.ref .container {
+    max-width: 100%;
+    width: 91%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #ref.ref .container h4 {
+    line-height: 21px;
+    color: #424242;
+    font-size: 14px;
+  }
+
+  footer .scroll_up {
+    position: absolute;
+    top: -33px;
+    right: 0px;
+    padding: 5px;
+    background: #0082ca;
+    z-index: 1;
+    cursor: pointer;
+  }
+  footer .footer_company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -81px;
+  }
+  footer .footer_company a {
+    margin-left: 74px;
+  }
+  footer .footer_company .company_address {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    margin-left: 32px;
+    padding: 4px;
+  }
+  footer .footer_company .company_address p {
+    font-size: 14px;
+  }
+  footer .footer_link .footer_links li a {
+    padding: 0px 5px 3px 5px;
+    font-size: 11px;
+  }
+  footer .footer_link .footer_links li a:after {
+    height: 2px;
+  }
+  footer .scroll_up {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    padding: 3px;
+  }
+  footer .scroll_up img {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  footer .scroll_up:before {
+    width: 26%;
+  }
+
+  footer.footer {
+    margin-top: 107%;
+  }
+  footer.footer .scroll_up {
+    position: absolute;
+    top: -33px;
+    right: 0px;
+    padding: 5px;
+    background: #0082ca;
+    z-index: 1;
+    cursor: pointer;
+  }
+  footer.footer .footer_company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -81px;
+  }
+  footer.footer .footer_company a {
+    margin-left: 74px;
+  }
+  footer.footer .footer_company .company_address {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    margin-left: 32px;
+    padding: 4px;
+  }
+  footer.footer .footer_company .company_address p {
+    font-size: 14px;
+  }
+  footer.footer .footer_link .footer_links li a {
+    padding: 0px 5px 3px 5px;
+    font-size: 11px;
+  }
+  footer.footer .footer_link .footer_links li a:after {
+    height: 2px;
+  }
+  footer.footer .scroll_up {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    padding: 3px;
+  }
+  footer.footer .scroll_up img {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  footer.footer .scroll_up:before {
+    width: 26%;
+  }
+
+  #kas_top .container .mp .aside_left {
+    margin-top: 9px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    height: 391px;
+  }
+  #kas_top .container .mp .aside_left .aside_left_content {
+    top: 230px;
+    width: 100%;
+    height: 45%;
+    right: 0px;
+  }
+  #kas_top .container .mp .aside_left .aside_left_content .aside_link a {
+    right: 75px;
+    font-size: 21px;
+  }
+  #kas_top .container .mp .aside_left:after {
+    top: 221px;
+    left: 8%;
+  }
+}
+@media (max-width: 375px) {
+  #ref .container {
+    max-width: 100%;
+    width: 91%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #ref .container h4 {
+    line-height: 21px;
+    color: #424242;
+    font-size: 14px;
+  }
+
+  #ref.ref {
+    position: relative;
+    top: 240px;
+  }
+  #ref.ref .container {
+    max-width: 100%;
+    width: 91%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #ref.ref .container h4 {
+    line-height: 21px;
+    color: #424242;
+    font-size: 14px;
+  }
+
+  footer .scroll_up {
+    position: absolute;
+    top: -33px;
+    right: 7px;
+    padding: 5px;
+    background: #0082ca;
+    z-index: 1;
+    cursor: pointer;
+  }
+  footer .footer_company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -81px;
+  }
+  footer .footer_company a {
+    margin-left: 74px;
+  }
+  footer .footer_company .company_address {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    margin-left: 32px;
+    padding: 4px;
+  }
+  footer .footer_company .company_address p {
+    font-size: 14px;
+  }
+  footer .footer_link .footer_links li a {
+    padding: 0px 5px 3px 5px;
+    font-size: 11px;
+  }
+  footer .footer_link .footer_links li a:after {
+    height: 2px;
+  }
+  footer .scroll_up {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    padding: 3px;
+  }
+  footer .scroll_up img {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  footer .scroll_up:before {
+    width: 26%;
+  }
+
+  footer.footer {
+    margin-top: 73%;
+  }
+  footer.footer .scroll_up {
+    position: absolute;
+    top: -33px;
+    right: 7px;
+    padding: 5px;
+    background: #0082ca;
+    z-index: 1;
+    cursor: pointer;
+  }
+  footer.footer .footer_company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -81px;
+  }
+  footer.footer .footer_company a {
+    margin-left: 74px;
+  }
+  footer.footer .footer_company .company_address {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    margin-left: 32px;
+    padding: 4px;
+  }
+  footer.footer .footer_company .company_address p {
+    font-size: 14px;
+  }
+  footer.footer .footer_link .footer_links li a {
+    padding: 0px 5px 3px 5px;
+    font-size: 11px;
+  }
+  footer.footer .footer_link .footer_links li a:after {
+    height: 2px;
+  }
+  footer.footer .scroll_up {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    padding: 3px;
+  }
+  footer.footer .scroll_up img {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  footer.footer .scroll_up:before {
+    width: 26%;
+  }
+
+  #kas_top .container .mp .aside_left {
+    margin-top: 9px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    height: 391px;
+  }
+  #kas_top .container .mp .aside_left .aside_left_content {
+    top: 230px;
+    width: 100%;
+    height: 45%;
+    right: 0px;
+  }
+  #kas_top .container .mp .aside_left .aside_left_content .aside_link a {
+    right: 75px;
+    font-size: 21px;
+  }
+  #kas_top .container .mp .aside_left:after {
+    top: 221px;
+    left: 8%;
+  }
+
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item {
+    top: 73%;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper img {
+    height: auto;
+  }
+  #content .container .no-gutters .home_aside .item_two {
+    top: 139px;
+  }
+  #content .container .no-gutters .home_content .content_detail .link:before {
+    width: 15%;
+  }
+}
+@media (max-width: 768px) {
+  #content .container .no-gutters .home_aside .item_wrapper .question {
+    width: 95%;
+    top: 116px;
+    left: 0px;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item {
+    top: 71%;
+    height: 78%;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_top p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_bottom:before {
+    width: 15%;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_bottom:after {
+    left: 2%;
+    top: 64%;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper img {
+    height: auto;
+  }
+  #content .container .no-gutters .home_content .content_detail {
+    width: 53%;
+  }
+  #content .container .no-gutters .home_content .content_detail .link:before {
+    width: 15%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
