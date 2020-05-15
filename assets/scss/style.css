@@ -1537,20 +1537,22 @@ main.main_privacy .container .items ul li {
 
 @media (max-width: 575.98px) {
   #header .menu__wrapper {
-    width: 240px;
+    width: 191px;
   }
   #header .menu__wrapper .menu {
-    width: 240px !important;
+    width: 191px !important;
   }
   #header .menu__wrapper .menu .menu__links .menu__links__item {
     height: 39px;
     padding: 0 16px;
   }
   #header .menu__wrapper .menu .menu__links .menu__links__item a {
-    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 18px;
   }
   #header .menu__links__item.active a {
-    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 18px;
   }
 
   #slider {
@@ -1572,11 +1574,12 @@ main.main_privacy .container .items ul li {
   }
   #slider .container .owl-carousel .item .slide_img {
     position: absolute;
-    top: 0px;
+    top: 71px;
     right: 0;
     width: 100%;
     height: 40%;
     z-index: 2;
+    transform: scale(1.5);
   }
   #slider .container .owl-carousel .item .slide_caption,
 #slider .container .owl-carousel .item .slide_caption2 {
@@ -1584,7 +1587,7 @@ main.main_privacy .container .items ul li {
     top: 40%;
     left: 0px;
     width: 100%;
-    height: 60%;
+    height: 51%;
     z-index: 3;
     padding: 10px;
     background: #eee;
@@ -1597,9 +1600,9 @@ main.main_privacy .container .items ul li {
   #slider .container .owl-carousel .item .slide_caption h2,
 #slider .container .owl-carousel .item .slide_caption2 h2 {
     font-family: "fs_albertbold", sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     color: #000000;
-    line-height: 35px;
+    line-height: 21px;
     font-weight: 500;
     padding: 0;
     margin: 0;
@@ -1618,6 +1621,14 @@ main.main_privacy .container .items ul li {
     bottom: -12px;
     left: 0px;
   }
+  #slider .container .owl-carousel .item .slide_caption p,
+#slider .container .owl-carousel .item .slide_caption2 p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 9px;
+    font-weight: 400;
+    color: #000;
+  }
   #slider .container .owl-carousel .item .slide_caption .text-black,
 #slider .container .owl-carousel .item .slide_caption2 .text-black {
     height: 1px;
@@ -1632,7 +1643,7 @@ main.main_privacy .container .items ul li {
 #slider .container .owl-carousel .item .slide_caption2 .slide_link {
     opacity: 0.8;
     font-family: "fs_albertbold", sans-serif;
-    margin-top: 20px;
+    margin-top: 2px;
   }
   #slider .container .owl-carousel .item .slide_caption .slide_link a,
 #slider .container .owl-carousel .item .slide_caption2 .slide_link a {
@@ -1710,8 +1721,8 @@ main.main_privacy .container .items ul li {
     position: relative;
   }
   #content .container .no-gutters .home_aside .item_wrapper .question h3 {
-    width: 143px;
-    left: -17px;
+    left: 31px;
+    width: 150px;
   }
   #content .container .no-gutters .home_aside .item_wrapper .aside_item {
     height: 65%;
@@ -2836,6 +2847,7 @@ main.main_privacy .container .items ul li {
   #kas_top .mp .aside_left img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    left: 14px;
   }
 
   #noskatieties_vedio {
@@ -2956,6 +2968,10 @@ main.main_privacy .container .items ul li {
   }
   footer .footer_company a {
     margin-left: 58px;
+  }
+
+  #content .container .no-gutters .home_content .content_detail {
+    width: 100%;
   }
 }
 @media (max-width: 360px) {
@@ -3262,12 +3278,18 @@ main.main_privacy .container .items ul li {
     right: 0px;
   }
   #kas_top .container .mp .aside_left .aside_left_content .aside_link a {
-    right: 75px;
+    right: 16%;
     font-size: 21px;
   }
   #kas_top .container .mp .aside_left:after {
     top: 221px;
     left: 8%;
+  }
+  #kas_top .container .mp .aside_right .nervepain__symptoms {
+    padding: 11px;
+  }
+  #kas_top .container .mp .aside_right .nervepain__symptoms ul li {
+    font-size: 16px;
   }
 
   #content .container .no-gutters .home_aside .item_wrapper .aside_item {
@@ -3282,20 +3304,34 @@ main.main_privacy .container .items ul li {
   #content .container .no-gutters .home_content .content_detail .link:before {
     width: 15%;
   }
+
+  #kas_bottom .mp .aside_right p {
+    font-size: 19px;
+    padding: 0;
+    margin: 0 0 34px;
+    letter-spacing: 0.3px;
+    color: #424242;
+    line-height: 32px;
+    font-weight: 400;
+  }
 }
 @media (max-width: 768px) {
   #content .container .no-gutters .home_aside .item_wrapper .question {
-    width: 95%;
-    top: 116px;
-    left: 0px;
+    width: 97%;
+    left: -20px;
+    top: 74px;
   }
   #content .container .no-gutters .home_aside .item_wrapper .aside_item {
-    top: 71%;
-    height: 78%;
+    top: 58%;
+    height: 74%;
+    left: -20px;
+  }
+  #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_top h3 {
+    font-size: 15px;
   }
   #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_top p {
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 15px;
+    line-height: 20px;
   }
   #content .container .no-gutters .home_aside .item_wrapper .aside_item .item_bottom:before {
     width: 15%;
@@ -3308,11 +3344,28 @@ main.main_privacy .container .items ul li {
     height: auto;
   }
   #content .container .no-gutters .home_content .content_detail {
-    width: 53%;
+    width: 100%;
   }
   #content .container .no-gutters .home_content .content_detail .link:before {
     width: 15%;
   }
+}
+footer {
+  width: 100%;
+  top: 0px;
+}
+
+#copyrights {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  z-index: 9999;
+  height: 44px;
 }
 
 /*# sourceMappingURL=style.css.map */

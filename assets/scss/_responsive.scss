@@ -1,15 +1,16 @@
 @media (max-width: 575.98px){
   #header {
     .menu__wrapper {
-      width: 240px;
+      width: 191px;
       .menu {
-        width: 240px !important;
+        width: 191px !important;
         .menu__links{
           .menu__links__item {
             height: 39px;
             padding: 0 16px;
             a {
-              font-size: 14px;
+              font-size: 0.9rem;
+              line-height: 18px;
             }
           }
         }
@@ -17,7 +18,8 @@
     }
     .menu__links__item.active{
       a {
-        font-size: 14px;
+        font-size: 0.9rem;
+        line-height: 18px;
       }
     }
   }
@@ -40,11 +42,12 @@
           max-height: 500px;
           .slide_img{
             position: absolute;
-            top: 0px;
+            top: 71px;
             right: 0;
             width: 100%;
             height: 40%;
             z-index: 2;
+            transform: scale(1.5);
             img{
             }
           }
@@ -54,7 +57,7 @@
             top: 40%;
             left: 0px;
             width: 100%;
-            height: 60%;
+            height: 51%;
             z-index: 3;
             padding: 10px;
             background: #eee;
@@ -65,9 +68,9 @@
             h2
             {
               font-family: 'fs_albertbold', sans-serif;
-              font-size: 25px;
+              font-size: 16px;
               color: #000000;
-              line-height: 35px;
+              line-height: 21px;
               font-weight: 500;
               padding: 0;
               margin: 0;
@@ -85,6 +88,13 @@
                 left: 0px;
               }
             }
+            p{
+              font-size: 14px;
+              line-height: 20px;
+              margin-top: 9px;
+              font-weight: 400;
+              color: #000;
+            }
             .text-black {
               height: 1px;
               background-color: #a7a2a7;
@@ -96,8 +106,8 @@
             }
             .slide_link{
               opacity: 0.8;
-              font-family: 'fs_albertbold', sans-serif;
-              margin-top: 20px;
+              font-family: "fs_albertbold", sans-serif;
+              margin-top: 2px;
               a{
                 align-items: center;
                 font-size: 13px;
@@ -175,8 +185,8 @@
             position: relative;
             .question{
               h3{
-                width: 143px;
-                left: -17px;
+                left: 31px;
+                width: 150px;
               }
             }
             .aside_item{
@@ -1387,6 +1397,7 @@
         img{
           -webkit-transform: scale(1.2);
           transform: scale(1.2);
+          left: 14px;
         }
       }
     }
@@ -1585,7 +1596,12 @@
       }
     }
   }
+  #content .container .no-gutters .home_content .content_detail {
+    width: 100%;
+  }
 }
+
+
 
 //BlackBarry
 @media (max-width: 360px){
@@ -1921,7 +1937,7 @@
             right: 0px;
             .aside_link{
               a {
-                right: 75px;
+                right: 16%;
                 font-size: 21px;
               }
             }
@@ -1929,6 +1945,16 @@
           &:after{
             top: 221px;
             left: 8%;
+          }
+        }
+        .aside_right{
+          .nervepain__symptoms{
+            padding: 11px;
+            ul{
+              li{
+                font-size: 16px;
+              }
+            }
           }
         }
       }
@@ -1963,6 +1989,15 @@
       }
     }
   }
+  #kas_bottom .mp .aside_right p {
+    font-size: 19px;
+    padding: 0;
+    margin: 0 0 34px;
+    letter-spacing: 0.3px;
+    color: #424242;
+    line-height: 32px;
+    font-weight: 400;
+  }
 
 }
 
@@ -1974,17 +2009,21 @@
         .home_aside {
           .item_wrapper {
             .question{
-              width: 95%;
-              top: 116px;
-              left: 0px;
+              width: 97%;
+              left: -20px;
+              top: 74px;
             }
             .aside_item{
-              top: 71%;
-              height: 78%;
+              top: 58%;
+              height: 74%;
+              left: -20px;
               .item_top{
+                h3{
+                  font-size: 15px;
+                }
                 p{
-                  font-size: 17px;
-                  line-height: 23px;
+                  font-size: 15px;
+                  line-height: 20px;
                 }
               }
               .item_bottom{
@@ -2006,7 +2045,7 @@
         }
         .home_content{
           .content_detail{
-            width: 53%;
+            width: 100%;
             .link{
               &:before{
                 width: 15%;
@@ -2017,4 +2056,21 @@
       }
     }
   }
+}
+
+footer {
+  width: 100%;
+  top: 0px;
+}
+#copyrights {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  z-index: 9999;
+  height: 44px;
 }
